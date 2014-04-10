@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} | Frank LSF</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Frank LSF. @franklsf95.">
+
+        <link rel="shortcut icon" href="/assets/img/favicon.ico">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+        <link href="/assets/css/framework.css" rel="stylesheet" />
+        <link href="/assets/css/site.css" rel="stylesheet" />
+    </head>
+    <body>
+{% include navbar.html %}
+{{ content }}
+{% include footer.html %}
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        {% for js in page.scripts %}
+        <script src="/assets/js/{{ js }}.js"></script>
+        {% endfor %}
+        <script>
+        // $('#nav-{{ mixture.url }}').addClass('active');
+        </script>
+    </body>
+</html>

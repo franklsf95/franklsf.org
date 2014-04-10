@@ -1,0 +1,7 @@
+name: SketchOff
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - Guardfile
+ - sketch-off-landing.sublime-project
+ - README.md

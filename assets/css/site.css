@@ -1,0 +1,39 @@
+.header {
+  height: 180px;
+  width: 100%;
+  background-color: #4a89dc;
+  color: #f5f7fa; }
+  .header h1 {
+    font-weight: 600;
+    font-size: 60px;
+    margin: 40px 0 20px 0; }
+  .header a h1 {
+    color: #f5f7fa; }
+    .header a h1:hover, .header a h1:focus {
+      color: #e6e9ed; }
+  .header .description {
+    font-size: 20px;
+    padding-left: 6px; }
+
+.about h4 {
+  font-weight: 300; }
+.about .progress {
+  font-weight: 400; }
+.about .img-school-badge {
+  height: 80px;
+  max-width: 80px; }
+.about .left {
+  float: left;
+  margin-right: 26.66667px; }
+.about .right {
+  float: right;
+  margin-left: 26.66667px; }
+
+.td-project {
+  font-weight: 700;
+  width: 30%; }
+
+.footer {
+  color: #f5f7fa; }
+  .footer a {
+    color: #f5f7fa; }

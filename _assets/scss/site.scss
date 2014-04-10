@@ -1,0 +1,57 @@
+@import "bootflat/global";
+
+.header {
+    height: 180px;
+    width: 100%;
+    background-color: $bluejeans-dark;
+    color: $lightgray-light;
+    h1 {
+        font-weight: 600;
+        font-size: 60px;
+        margin: 40px 0 20px 0;
+    }
+    a h1 {
+        color: $lightgray-light;
+        &:hover, &:focus {
+            color: $lightgray-dark;
+        }
+    }
+    .description {
+        font-size: 20px;
+        padding-left: 6px;
+    }
+}
+
+.about {
+    h4 {
+        font-weight: 300;
+    }
+    .progress {
+        font-weight: 400;
+    }
+    $school-badge-size: 80px;
+    .img-school-badge {
+        height: $school-badge-size;
+        max-width: $school-badge-size;
+    }
+    .left {
+        float: left;
+        margin-right: ($school-badge-size / 3);
+    }
+    .right {
+        float: right;
+        margin-left: ($school-badge-size / 3);
+    }
+}
+
+.td-project {
+    font-weight: 700;
+    width: 30%;
+}
+
+.footer {
+    color: $lightgray-light;
+    a {
+        color: $lightgray-light;
+    }
+}

@@ -1,0 +1,62 @@
+- name: Projects
+  entries:
+    - url: //sketch-off.com/
+      name: SketchOff
+      description: My start-up. Crowdsourcing your social image.
+- name: Projects hosted on this domain
+  entries:
+    - url: //ap.franklsf.org/
+      name: AP Computer Science Classroom
+      description: Introduction to Java and Object-Oriented Programming (zh-cn)
+    - url: //blog.franklsf.org/
+      name: Where we belong (Blog)
+      description:
+    - url: //guoguohy.franklsf.org/
+      name: Mom's Blog
+      description:
+    - url:
+      name: My Personal Blog
+      description: (link not provided)
+    - url: //wiki.franklsf.org/
+      name: Test Wiki
+      description: No particular purpose
+- name: Other thingys
+  entries:
+    - url: /id
+      name: Check Digit Calculator
+      description: Chinese Resident Identity Card check digit validator, written in barebone JavaScript. Created on Dec 30, 2012.
+    - url: /me
+      name: Another Side of Me
+      description: Dynamic portfolio for college application. Based on <a href="//github.com/bartaz/impress.js/">impress.js</a>. Created on Dec 7, 2012.
+    - url: /mit
+      name: Another Side of Me (for MIT)
+      description: Dynamic portfolio for applying to MIT. Based on <a href="//github.com/bartaz/impress.js/">impress.js</a>. Created on Dec 7, 2012.
+    - url: /rolling-selector
+      name: Rolling Selector
+      description: A random rolling selector, UI based on Foundation. Reconstructed on Dec 29, 2013 (<a href="//github.com/franklsf95/rolling-selector">GitHub</a>).
+    - url: /rp
+      name: RP Calculator
+      description: Calculate your RP. Written in barebone PHP, on Aug 19, 2011. See also <a href="//www.nocow.cn/index.php/RP">RP导论</a>.
+    - url: /temp
+      name: Temporary Files
+      description: File share.
+    - url: /uchi
+      name: U Chicago Class of 2017 Essays
+      description: A collection of essays from U Chicago Class of 2017. Sadly, no one seems interested in posting them.
+- name: Deprecated projects
+  entries:
+    - url: /archive
+      name: Archives
+      description: An archive of the old versions of this page.
+    - url: /cvoices
+      name: Contemporary Voices
+      description: A prototype website for <a href="//cvoices.org/">Contemporary Voices</a>.
+    - url: //github.com/netputer/netputweets
+      name: 奶瓶腿
+      description: A Twitter proxy client for mobile devices. Once hosted at <code>/n</code>.
+    - url: //code.google.com/p/embr/
+      name: Embr
+      description: A Twitter proxy client. Once hosted at <code>/t</code>.
+    - url: //franklsf.org/offer/
+      name: Offers
+      description: An online offer-tracking system built on CodeIgniter. Created on Mar 31, 2013 (<a href="//github.com/franklsf95/offer">GitHub</a>).
