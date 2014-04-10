@@ -1,7 +1,8 @@
-name: SketchOff
+name: Frank LSF
 exclude:
+ - deploy.sh
+ - franklsf.org.sublime-project
  - Gemfile
  - Gemfile.lock
  - Guardfile
- - sketch-off-landing.sublime-project
  - README.md
