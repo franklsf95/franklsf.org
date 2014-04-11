@@ -1,7 +1,7 @@
 @import "bootflat/global";
 
 .header {
-    height: 180px;
+    height: 200px;
     width: 100%;
     background-color: $bluejeans-dark;
     color: $lightgray-light;
@@ -48,6 +48,11 @@
     font-weight: 700;
     width: 30%;
 }
+.td-time {
+    max-width: 12%;
+    text-align: right;
+}
+
 
 .footer {
     color: $lightgray-light;

@@ -32,12 +32,13 @@ scripts:
   <tbody>
   {% for category in site.data.projects %}
   <tr>
-      <th colspan="2">{{ category.name }}</th>
+      <th colspan="3">{{ category.name }}</th>
   </tr>
     {% for entry in category.entries %}
   <tr>
       <td class="td-project"><a href="{{ entry.url }}">{{ entry.name }}</a></td>
       <td>{{ entry.description }}</td>
+      <td class="td-time">{{ entry.time }}</td>
   </tr>
     {% endfor %}
   {% endfor %}

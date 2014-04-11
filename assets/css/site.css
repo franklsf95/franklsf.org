@@ -1,5 +1,5 @@
 .header {
-  height: 180px;
+  height: 200px;
   width: 100%;
   background-color: #4a89dc;
   color: #f5f7fa; }
@@ -32,6 +32,10 @@
 .td-project {
   font-weight: 700;
   width: 30%; }
+
+.td-time {
+  max-width: 12%;
+  text-align: right; }
 
 .footer {
   color: #f5f7fa; }

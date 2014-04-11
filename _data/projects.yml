@@ -3,6 +3,19 @@
     - url: //sketch-off.com/
       name: SketchOff
       description: My start-up. Crowdsourcing your social image.
+      time: 2013.10 - now
+    - url: //cusa.uchicago.edu/
+      name: UChicago CUSA
+      description: Chinese Undegraduate Student Association. Preparing to Overhaul.
+      time: 2014.2 - now
+    - url: //offers2013.herokuapp.com/
+      name: RDFZ Offers 2013
+      description: An online offer-tracking system for RDFZ 2013. (<a href="//github.com/franklsf95/offer-rails">GitHub</a>)
+      time: 2013.5 - now
+    - url: //bjmun.org/
+      name: BJMUN
+      description: Beijing Model UN Association for High School Students
+      time: 2011.6 - 2013.9
 - name: Projects hosted on this domain
   entries:
     - url: //ap.franklsf.org/
@@ -24,19 +37,24 @@
   entries:
     - url: /id
       name: Check Digit Calculator
-      description: Chinese Resident Identity Card check digit validator, written in barebone JavaScript. Created on Dec 30, 2012.
+      description: Chinese Resident Identity Card check digit validator, written in barebone JavaScript.
+      time: 2012-12-30
     - url: /me
       name: Another Side of Me
-      description: Dynamic portfolio for college application. Based on <a href="//github.com/bartaz/impress.js/">impress.js</a>. Created on Dec 7, 2012.
+      description: Dynamic portfolio for college application. Based on <a href="//github.com/bartaz/impress.js/">impress.js</a>.
+      time: 2012-12-7
     - url: /mit
       name: Another Side of Me (for MIT)
-      description: Dynamic portfolio for applying to MIT. Based on <a href="//github.com/bartaz/impress.js/">impress.js</a>. Created on Dec 7, 2012.
+      description: Dynamic portfolio for applying to MIT. Based on <a href="//github.com/bartaz/impress.js/">impress.js</a>.
+      time: 2012-12-7
     - url: /rolling-selector
       name: Rolling Selector
-      description: A random rolling selector, UI based on Foundation. Reconstructed on Dec 29, 2013 (<a href="//github.com/franklsf95/rolling-selector">GitHub</a>).
+      description: A random rolling selector, UI based on Foundation. Reconstructed. (<a href="//github.com/franklsf95/rolling-selector">GitHub</a>)
+      time: 2013-12-29
     - url: /rp
       name: RP Calculator
-      description: Calculate your RP. Written in barebone PHP, on Aug 19, 2011. See also <a href="//www.nocow.cn/index.php/RP">RP导论</a>.
+      description: Calculate your RP. Written in barebone PHP. See also <a href="//www.nocow.cn/index.php/RP">RP导论</a>.
+      time: 2011-8-19
     - url: /temp
       name: Temporary Files
       description: File share.
@@ -47,7 +65,7 @@
   entries:
     - url: /archive
       name: Archives
-      description: An archive of the old versions of this page.
+      description: An archive of older versions of this page.
     - url: /cvoices
       name: Contemporary Voices
       description: A prototype website for <a href="//cvoices.org/">Contemporary Voices</a>.
@@ -59,4 +77,5 @@
       description: A Twitter proxy client. Once hosted at <code>/t</code>.
     - url: //franklsf.org/offer/
       name: Offers
-      description: An online offer-tracking system built on CodeIgniter. Created on Mar 31, 2013 (<a href="//github.com/franklsf95/offer">GitHub</a>).
+      description: An online offer-tracking system built on CodeIgniter. (<a href="//github.com/franklsf95/offer">GitHub</a>)
+      time: 2013-3-31
