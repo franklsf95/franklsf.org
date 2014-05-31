@@ -14,6 +14,9 @@
   .header .description {
     font-size: 20px;
     padding-left: 6px; }
+  .header code {
+    background: none;
+    color: inherit; }
 
 .about h4 {
   font-weight: 300; }
