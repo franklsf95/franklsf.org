@@ -24,15 +24,15 @@
     - url: //blog.franklsf.org/
       name: Where we belong (Blog)
       description:
-    - url: //guoguohy.franklsf.org/
+    - url:
       name: Mom's Blog
-      description:
+      description: (link not provided)
     - url:
       name: My Personal Blog
       description: (link not provided)
     - url: //wiki.franklsf.org/
       name: Test Wiki
-      description: No particular purpose
+      description: No particular purpose (link broken)
 - name: Other thingys
   entries:
     - url: /id
