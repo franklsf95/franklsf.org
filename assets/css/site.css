@@ -1,22 +1,35 @@
 .header {
   height: 200px;
   width: 100%;
-  background-color: #4a89dc;
-  color: #f5f7fa; }
+  background-color: #4A89DC;
+  color: #F5F7FA; }
   .header h1 {
     font-weight: 600;
     font-size: 60px;
     margin: 40px 0 20px 0; }
   .header a h1 {
-    color: #f5f7fa; }
+    color: #F5F7FA; }
     .header a h1:hover, .header a h1:focus {
-      color: #e6e9ed; }
+      color: #E6E9ED; }
   .header .description {
     font-size: 20px;
     padding-left: 6px; }
   .header code {
     background: none;
     color: inherit; }
+
+.logo {
+  width: 160px;
+  height: 160px; }
+
+.panel-logo {
+  width: 160px; }
+  @media (min-width: 768px) {
+    .panel-logo {
+      position: absolute;
+      top: 80px;
+      right: 140px;
+      z-index: 1; } }
 
 .about h4 {
   font-weight: 300; }
@@ -41,6 +54,6 @@
   text-align: right; }
 
 .footer {
-  color: #f5f7fa; }
+  color: #F5F7FA; }
   .footer a {
-    color: #f5f7fa; }
+    color: #F5F7FA; }
