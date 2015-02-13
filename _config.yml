@@ -6,3 +6,9 @@ exclude:
  - Gemfile.lock
  - Guardfile
  - README.md
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+coffee:
+    style: :compressed

@@ -1,8 +1,8 @@
 - name: Projects
   entries:
-    - url: //sketch-off.com/
-      name: SketchOff
-      description: My start-up. Crowdsourcing your social image.
+    - url: //sketchme.co/
+      name: SketchMe
+      description: My social app startup. Know Thy Friends.
       time: 2013.10 - now
     - url: //cusa.uchicago.edu/
       name: UChicago CUSA
