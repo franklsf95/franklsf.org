@@ -1,4 +1,8 @@
 name: Frank LSF
+
+gems:
+ - jekyll-coffeescript
+
 exclude:
  - deploy.sh
  - franklsf.org.sublime-project
@@ -10,5 +14,6 @@ exclude:
 sass:
     sass_dir: _sass
     style: :compressed
+
 coffee:
     style: :compressed
