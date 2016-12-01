@@ -1,13 +1,17 @@
 - name: Projects
   entries:
+    - url: /24
+      name: 24 Solver
+      description: A solver to the arithmetic game 24. Produces fewer duplicates than other algorithms.
+      time: 2016.12
+    - url: /wiki-translate
+      name: Translate via Wikipedia
+      description: Translate academic jargons using the all-powerful Wikipedia.
+      time: 2016.9
     - url: //sketchme.co/
       name: SketchMe
       description: My social app startup. Know Thy Friends.
-      time: 2013.10 - now
-    - url: //cusa.uchicago.edu/
-      name: UChicago CUSA
-      description: Chinese Undegraduate Student Association. Preparing to Overhaul.
-      time: 2014.2 - now
+      time: 2013.10 - 2015.6
     - url: //offers2013.herokuapp.com/
       name: RDFZ Offers 2013
       description: An online offer-tracking system for RDFZ 2013. (<a href="//github.com/franklsf95/offer-rails">GitHub</a>)
@@ -37,7 +41,7 @@
   entries:
     - url: /id
       name: Check Digit Calculator
-      description: Chinese Resident Identity Card check digit validator, written in barebone JavaScript.
+      description: Chinese Resident Identity Card check digit validator, written in vanilla JavaScript.
       time: 2012-12-30
     - url: /me
       name: Another Side of Me
@@ -58,9 +62,6 @@
     - url: /temp
       name: Temporary Files
       description: File share.
-    - url: /uchi
-      name: U Chicago Class of 2017 Essays
-      description: A collection of essays from U Chicago Class of 2017. Sadly, no one seems interested in posting them.
 - name: Deprecated projects
   entries:
     - url: /archive
