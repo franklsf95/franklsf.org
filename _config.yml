@@ -1,19 +1,19 @@
 name: Frank LSF
 
-gems:
- - jekyll-coffeescript
+plugins:
+  - jekyll-coffeescript
 
 exclude:
- - deploy.sh
- - franklsf.org.sublime-project
- - Gemfile
- - Gemfile.lock
- - Guardfile
- - README.md
+  - deploy.sh
+  - franklsf.org.sublime-project
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - README.md
 
 sass:
-    sass_dir: _sass
-    style: :compressed
+  sass_dir: _sass
+  style: :compressed
 
 coffee:
-    style: :compressed
+  style: :compressed
