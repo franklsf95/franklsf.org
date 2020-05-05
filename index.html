@@ -2,53 +2,56 @@
 layout: default
 title: Homepage
 scripts:
- - index
+  - index
 ---
+
 <main class="main container">
-    <section class="about">
-        <h3>About Me</h3>
-        <div class="panel panel-logo">
-            <img src="/assets/img/franklsf.png" alt="Frank LSF" class="logo" />
+  <section class="about">
+    <h3>About Me</h3>
+    <div class="panel panel-logo">
+      <img src="assets/img/franklsf.png" alt="Frank LSF" class="logo" />
+    </div>
+    <div class="list-group list-group-schools">
+      <a href="http://www.uchicago.edu/" target="_blank" class="list-group-item">
+        <img src="assets/img/uchicago.png" class="img-school-badge left" />
+        <h4>University of Chicago, 2013 - 2017 (expected)</h4>
+        <div class="progress animate">
+          <div class="progress-bar" id="progress-college"></div>
+          <div class="progress-bar progress-bar-warning" id="progress-college-gap"></div>
+          <div class="progress-bar" id="progress-college-2"></div>
         </div>
-        <div class="list-group list-group-schools">
-            <a href="http://www.uchicago.edu/" target="_blank" class="list-group-item">
-              <img src="/assets/img/uchicago.png" class="img-school-badge left">
-              <h4>University of Chicago, 2013 - 2017 (expected)</h4>
-              <div class="progress animate">
-                  <div class="progress-bar" id="progress-college"></div>
-                  <div class="progress-bar progress-bar-warning" id="progress-college-gap"></div>
-                  <div class="progress-bar" id="progress-college-2"></div>
-              </div>
-            </a>
-            <a href="http://www.rdfz.cn/" target="_blank" class="list-group-item">
-              <img src="/assets/img/rdfz.jpg" class="img-school-badge right">
-              <h4>High School Affiliated to Renmin University of China, 2007 - 2013</h4>
-              <div class="progress">
-                <div class="progress-bar" id="progress-high-school"></div>
-              </div>
-            </a>
+      </a>
+      <a href="http://www.rdfz.cn/" target="_blank" class="list-group-item">
+        <img src="assets/img/rdfz.jpg" class="img-school-badge right" />
+        <h4>High School Affiliated to Renmin University of China, 2007 - 2013</h4>
+        <div class="progress">
+          <div class="progress-bar" id="progress-high-school"></div>
         </div>
-    </section>
-    <div class="clearfix"></div>
-    <section class="projects">
-        <h3>My Projects</h3>
-        <p>This section is an index of the complete and incomplete projects hosted on this website. Some of them might be fun to look into.</p>
-<table class="table table-hover">
-  <tbody>
-  {% for category in site.data.projects %}
-  <tr>
-      <th colspan="3">{{ category.name }}</th>
-  </tr>
-    {% for entry in category.entries %}
-  <tr>
-      <td class="td-project"><a href="{{ entry.url }}">{{ entry.name }}</a></td>
-      <td>{{ entry.description }}</td>
-      <td class="td-time">{{ entry.time }}</td>
-  </tr>
-    {% endfor %}
-  {% endfor %}
-  </tbody>
-</table>
-    </section>
-    <hr>
+      </a>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <section class="projects">
+    <h3>My Projects</h3>
+    <p>
+      This section is an index of the complete and incomplete projects hosted on this website. Some of them might be fun
+      to look into.
+    </p>
+    <table class="table table-hover">
+      <tbody>
+        {% for category in site.data.projects %}
+        <tr>
+          <th colspan="3">{{ category.name }}</th>
+        </tr>
+        {% for entry in category.entries %}
+        <tr>
+          <td class="td-project"><a href="{{ entry.url }}">{{ entry.name }}</a></td>
+          <td>{{ entry.description }}</td>
+          <td class="td-time">{{ entry.time }}</td>
+        </tr>
+        {% endfor %} {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  <hr />
 </main>

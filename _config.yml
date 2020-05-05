@@ -1,5 +1,7 @@
 name: Frank LSF
 
+baseurl: /prehistory
+
 plugins:
   - jekyll-coffeescript
 
